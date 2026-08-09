@@ -50,5 +50,11 @@ modules:
   - type: brew
     brew-analytics: false
     
-
+  - type: os-release
+    properties:
+      ID: blue_build
+      ID_LIKE: fedora
+      NAME: logOS
+      PRETTY_NAME: logOS
+      
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
