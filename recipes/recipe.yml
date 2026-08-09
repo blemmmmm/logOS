@@ -19,7 +19,7 @@ modules:
       nonfree: rpmfusion
     skip-dependencies: true
     install:
-          packages:
+      packages:
         - fastfetch
         - ly
         - wayland
