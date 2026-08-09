@@ -57,7 +57,7 @@ modules:
       NAME: logOS
       PRETTY_NAME: logOS
 
-    -type: systemd
+  - type: systemd
     system:
       enabled:
         - ly@tty2.service
