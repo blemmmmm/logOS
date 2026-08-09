@@ -23,12 +23,13 @@ modules:
         - ly
         - wayland
         - wayland-protocols
-        - wl-roots
+        - wlroots
         - labwc
         - grim
         - swaybg
         - swaybar
         - fuzzel
+        - foot
         
   - type: default-flatpaks
     configurations:
