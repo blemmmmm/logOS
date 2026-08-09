@@ -17,9 +17,9 @@ modules:
   - type: dnf
     repos:
       nonfree: rpmfusion
+    skip-dependencies: true
     install:
-      skip-dependencies: true
-      packages:
+          packages:
         - fastfetch
         - ly
         - wayland
