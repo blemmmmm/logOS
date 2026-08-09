@@ -18,7 +18,7 @@ modules:
     repos:
       nonfree: rpmfusion
     install:
-      skip-dependencies: true
+      skip-unavailable: true
       packages:
         - fastfetch
         - ly
