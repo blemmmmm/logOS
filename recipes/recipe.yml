@@ -19,14 +19,8 @@ modules:
       nonfree: rpmfusion
     install:
       packages:
-        - micro
-        - starship
-    remove:
-      packages:
-        # example: removing firefox (in favor of the flatpak)
-        # "firefox" is the main package, "firefox-langpacks" is a dependency
-        - firefox
-        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+        - fastfetch
+        - ly
 
   - type: default-flatpaks
     configurations:
