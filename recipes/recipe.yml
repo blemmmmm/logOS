@@ -22,8 +22,7 @@ modules:
       packages:
         - fastfetch
         - ly
-        - wayland
-        - wayland-protocols
+        - hikari
         - wlroots
         - labwc
         - labwc-session
