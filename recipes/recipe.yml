@@ -28,7 +28,7 @@ modules:
         - labwc-session
         - grim
         - swaybg
-        - swaybar
+        - thunar
         - fuzzel
         - foot
         - zathura
