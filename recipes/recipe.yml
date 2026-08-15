@@ -24,8 +24,6 @@ modules:
         - ly
         - hikari
         - wlroots
-        - labwc
-        - labwc-session
         - grim
         - waybar
         - thunar
@@ -33,6 +31,10 @@ modules:
         - foot
         - zathura
         - power-profiles-daemon
+    remove:
+      packages:
+        - labwc
+        - labwc-session
         
   - type: default-flatpaks
     configurations:
