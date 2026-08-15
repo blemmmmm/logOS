@@ -32,6 +32,7 @@ modules:
         - fuzzel
         - foot
         - zathura
+        - power-profiles-daemon
         
   - type: default-flatpaks
     configurations:
