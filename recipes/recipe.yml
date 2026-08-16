@@ -32,10 +32,6 @@ modules:
         - zathura
         - power-profiles-daemon
         - emacs
-    remove:
-      packages:
-        - labwc
-        - labwc-session
         
   - type: default-flatpaks
     configurations:
