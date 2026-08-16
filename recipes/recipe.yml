@@ -31,6 +31,7 @@ modules:
         - foot
         - zathura
         - power-profiles-daemon
+        - emacs
     remove:
       packages:
         - labwc
