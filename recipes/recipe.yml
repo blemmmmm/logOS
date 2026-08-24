@@ -47,6 +47,7 @@ modules:
         - DepartureMono
         - JetBrainsMono
         - NerdFontsSymbolsOnly
+        - GeistMono
   
   - type: brew
     brew-analytics: false
