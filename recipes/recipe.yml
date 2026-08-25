@@ -31,9 +31,10 @@ modules:
         - foot
         - power-profiles-daemon
         - emacs
+        - btop
     remove:
       packages:
-        - zathura
+        - htop
         
   - type: default-flatpaks
     configurations:
