@@ -29,9 +29,11 @@ modules:
         - thunar
         - fuzzel
         - foot
-        - zathura
         - power-profiles-daemon
         - emacs
+    remove:
+      packages:
+        - zathura
         
   - type: default-flatpaks
     configurations:
