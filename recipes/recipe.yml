@@ -33,6 +33,7 @@ modules:
         - emacs
         - btop
         - openbox
+        - xorg-server
     remove:
       packages:
         - htop
