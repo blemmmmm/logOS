@@ -32,6 +32,7 @@ modules:
         - power-profiles-daemon
         - emacs
         - btop
+        - xwayland
     remove:
       packages:
         - htop
