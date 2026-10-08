@@ -32,7 +32,7 @@ modules:
         - power-profiles-daemon
         - emacs
         - btop
-        - xorg-xwayland
+        - xorg-x11-server-Xwayland
     remove:
       packages:
         - htop
