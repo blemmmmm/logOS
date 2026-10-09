@@ -32,7 +32,8 @@ modules:
         - power-profiles-daemon
         - emacs
         - btop
-        - xorg-x11-server-Xwayland
+        - xorg-x11-server-Xorg
+        - openbox
     remove:
       packages:
         - htop
